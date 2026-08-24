@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data files - too large / not meant for git
+data/
+*.csv
+*.csv.gz
+*.parquet
+
+# Environment secrets (we'll need this later for GCP/Airflow)
+.env
+
+# OS files
+.DS_Store
+
+# Postgres data directory (owned by container, not readable by host user)
+ny_taxi_postgres_data/
