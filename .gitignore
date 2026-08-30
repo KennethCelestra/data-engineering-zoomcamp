@@ -21,3 +21,9 @@ ny_taxi_postgres_data/
 
 # GCP credentials - never commit
 .gcp/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
