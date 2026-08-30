@@ -27,3 +27,9 @@ ny_taxi_postgres_data/
 *.tfstate
 *.tfstate.backup
 *.tfvars
+
+# Airflow
+02-workflow-orchestration/logs/
+02-workflow-orchestration/plugins/
+02-workflow-orchestration/dags/data/
+.env
